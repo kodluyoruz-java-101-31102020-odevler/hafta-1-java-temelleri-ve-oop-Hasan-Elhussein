@@ -11,6 +11,8 @@ public class Application {
 		System.out.println("Lütfen şifreyi giriniz: ");
 		String input = scan.next();
 		
+		scan.close();
+		
 		
 		if(input.equals(password))
 			System.out.println("Giriş Başarılı!");
